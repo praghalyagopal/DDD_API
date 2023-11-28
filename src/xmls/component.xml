@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ComponentTestingSuite">
+    <listeners>
+        <listener class-name="report.ExtentReporterNG"/>
+    </listeners>
+    <test name="ComponentTesting">
+        <classes>
+            <class name="testCase.smokeCases.SmokeCases" />
+            <class name="testCase.ComponentTesting.TC_01_ComponentTesting" />
+        </classes>
+    </test>
+</suite>

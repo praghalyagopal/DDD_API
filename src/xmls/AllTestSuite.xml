@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllTestsSuite">
+    <listeners>
+        <listener class-name="report.ExtentReporterNG"/>
+    </listeners>
+    <test name="SmokeTest">
+        <classes>
+            <class name="testCase.smokeCases.SmokeCases" />
+        </classes>
+    </test>
+
+    <test name="ComponentTest">
+        <classes>
+            <class name="testCase.ComponentTesting.TC_01_ComponentTesting" />
+        </classes>
+    </test>
+
+    <test name="NegativeTest">
+        <classes>
+            <class name="testCase.NegativeCases.TC_01_CreatingBookingThruInvalidInput" />
+        </classes>
+    </test>
+</suite>

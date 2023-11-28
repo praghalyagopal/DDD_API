@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NegativeSuite">
+    <listeners>
+        <listener class-name="report.ExtentReporterNG"/>
+    </listeners>
+    <test name="NegativeTest">
+        <classes>
+            <class name="testCase.NegativeCases.TC_01_CreatingBookingThruInvalidInput" />
+        </classes>
+    </test>
+</suite>

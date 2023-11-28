@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite">
+    <listeners>
+        <listener class-name="report.ExtentReporterNG"/>
+    </listeners>
+    <test name="SmokeTest">
+        <classes>
+            <class name="testCase.smokeCases.SmokeCases" />
+        </classes>
+    </test>
+</suite>
